@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "kicad": {
+      "type": "stdio",
+      "command": "C:/Users/dorse/.local/bin/uvx.exe",
+      "args": ["kicad-mcp-pro@4.4.0", "--transport", "stdio"],
+      "env": {
+        "KICAD_MCP_PROJECT_DIR": ".",
+        "KICAD_MCP_WORKSPACE_ROOT": ".",
+        "KICAD_MCP_PROFILE": "full",
+        "KICAD_MCP_OPERATING_MODE": "write"
+      }
+    }
+  }
+}
