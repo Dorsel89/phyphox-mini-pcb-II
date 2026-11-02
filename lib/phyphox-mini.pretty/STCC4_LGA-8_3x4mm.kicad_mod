@@ -1,0 +1,164 @@
+(footprint "STCC4_LGA-8_3x4mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Sensirion STCC4 CO2 sensor, metal cap LGA-8 3.0x4.0x1.17 mm, land pattern per datasheet D1 (06/2025)")
+	(tags "Sensirion STCC4 CO2 LGA")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "177461d1-0d0c-4636-9545-a8e4b9315183")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "STCC4"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "1c728072-c22e-4ea8-b985-0a884e6c9398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5925f8c-f7b8-4be2-94f8-34ebc34482aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0104d7c-1d94-46cf-af70-2d0df3303ee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at -1.025 -1.15)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.306)
+		(chamfer top_left)
+		(uuid "b3eb508e-1869-406e-9fe4-9dd4ebb17b20")
+	)
+	(pad "2" smd rect
+		(at -1.025 0)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c939392-844c-4201-bf78-4eaa53bdbaf7")
+	)
+	(pad "3" smd rect
+		(at -1.025 1.15)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c6061dd-641f-4e18-834f-2ad1892b9a27")
+	)
+	(pad "4" smd rect
+		(at 0 1.525)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9231bae7-34fd-478b-a87d-df81e4c44607")
+	)
+	(pad "5" smd rect
+		(at 1.025 1.15)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a83ef1da-89f4-4723-b638-5bd7c48ab238")
+	)
+	(pad "6" smd rect
+		(at 1.025 0)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "380b9d06-332a-4352-bbe3-721d1eafc96b")
+	)
+	(pad "7" smd rect
+		(at 1.025 -1.15)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3cb3b8b9-0bc5-4421-a518-10b9baa1afbb")
+	)
+	(pad "8" smd rect
+		(at 0 -1.525)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68710ed2-307f-4c96-acd9-7ba23b356f30")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 -2.0) (xy 1.5 -2.0) (xy 1.5 2.0) (xy -1.5 2.0) (xy -1.5 -1.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c263c14-6cfe-48f8-9b1e-bbed1780ed64")
+	)
+	(fp_rect
+		(start -1.85 -2.35)
+		(end 1.85 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6e5c6a55-3eb2-45c8-b25e-7f5a24032598")
+	)
+	(fp_poly
+		(pts
+			(xy -1.25 -2.2) (xy 1.7 -2.2) (xy 1.7 2.2) (xy -1.7 2.2) (xy -1.7 -1.75) (xy -1.25 -2.2)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8cdaaa4c-c62e-4e49-aba9-31318a375ab4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "67b969c9-085e-4b6d-895d-b152401c9494")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/phyphox-mini.3dshapes/STCC4_LGA-8_3x4mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

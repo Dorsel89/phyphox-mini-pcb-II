@@ -3321,6 +3321,1026 @@
 			)
 			(embedded_fonts no)
 		)
+			(symbol "phyphox-mini:BMI423"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BMI423"
+				(at 7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi423-ds000.pdf"
+				(at -17.78 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6DoF IMU (accel + gyro), SPI/I2C/I3C, LGA-14 3.0x2.5 mm; pin-out as BMI160, pins 2/3/10/11 NC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Bosch IMU accelerometer gyroscope 6DoF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Bosch*LGA*3x2.5mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMI423_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SCx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SDx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "phyphox-mini:BMP581"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMP581"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "phyphox-mini:BMP581_LGA-10_2x2mm_P0.5mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Barometric pressure sensor, I2C/SPI/I3C, LGA-10 2.0x2.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Bosch pressure barometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP581_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BMP581_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0.0 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "phyphox-mini:STCC4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STCC4"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "phyphox-mini:STCC4_LGA-8_3x4mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/69295E41/CD_DS_STCC4_D1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CO2 sensor, I2C 0x64/0x65, I2C controller interface for SHT4x (0x44), LGA-8 3x4 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Sensirion CO2 gas sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STCC4_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "STCC4_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0.0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "SDA_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "SCL_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Humidity:SHT4x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SHT4x"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+				(at 3.81 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+				(at 3.81 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SHT4x_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 193.04 99.06)
@@ -3449,18 +4469,6 @@
 		(uuid "e11abdfc-d77f-4686-b8e0-99e173582baf")
 	)
 	(no_connect
-		(at 233.68 99.06)
-		(uuid "0ff24148-7fb7-4755-b1ed-a8601f62a4ee")
-	)
-	(no_connect
-		(at 233.68 101.6)
-		(uuid "45959fe6-d7ea-478c-a7c7-02cc24224946")
-	)
-	(no_connect
-		(at 233.68 104.14)
-		(uuid "c44e1cec-ed2c-4016-ae42-ce233be8533a")
-	)
-	(no_connect
 		(at 233.68 106.68)
 		(uuid "c7b526a4-8479-4766-98c6-b331f74d64e4")
 	)
@@ -3487,14 +4495,6 @@
 	(no_connect
 		(at 233.68 129.54)
 		(uuid "d3142c1f-5fb6-4714-89be-3bbf446e9022")
-	)
-	(no_connect
-		(at 233.68 132.08)
-		(uuid "5aba759d-25c4-4629-9447-ff25efcdb22a")
-	)
-	(no_connect
-		(at 233.68 134.62)
-		(uuid "6633a958-0437-4b47-9105-8b078ed10573")
 	)
 	(no_connect
 		(at 233.68 137.16)
@@ -3525,24 +4525,8 @@
 		(uuid "2fcccfa1-33ed-4a1b-bbbe-24d4f5b9fb61")
 	)
 	(no_connect
-		(at 233.68 157.48)
-		(uuid "e8880a45-9de7-47ea-99e7-330ec5b0688e")
-	)
-	(no_connect
-		(at 233.68 160.02)
-		(uuid "dbdf67ce-e1df-4217-839a-3e4944957bea")
-	)
-	(no_connect
 		(at 233.68 162.56)
 		(uuid "d5da0578-63ec-479a-a829-716f6c89af8b")
-	)
-	(no_connect
-		(at 233.68 165.1)
-		(uuid "a64c51c8-16a1-48a9-be7a-b4c135c73d88")
-	)
-	(no_connect
-		(at 233.68 167.64)
-		(uuid "4b53bf1f-b3af-40a5-83d1-e8698879319f")
 	)
 	(no_connect
 		(at 233.68 170.18)
@@ -10142,6 +11126,4006 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts (xy 233.68 132.08) (xy 238.76 132.08))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d22496-3169-41d4-950b-fb27f9727635")
+	)
+	(label "I2C_SDA"
+		(at 238.76 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4f0c805-583c-4ecc-984a-cbc96e13d311")
+	)
+	(wire
+		(pts (xy 233.68 134.62) (xy 238.76 134.62))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fbb0ae-93d1-4382-9913-404bf755d9d0")
+	)
+	(label "I2C_SCL"
+		(at 238.76 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "873403e9-1e59-4fe5-98fd-86b815bd4a5a")
+	)
+	(wire
+		(pts (xy 233.68 157.48) (xy 238.76 157.48))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe2ae03-8946-43f7-a10a-ba205323dd8e")
+	)
+	(label "IMU_SCK"
+		(at 238.76 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1290117e-3ff1-4ad3-a429-1c8fe2576541")
+	)
+	(wire
+		(pts (xy 233.68 160.02) (xy 238.76 160.02))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2d75cf1-2794-4ec1-b27f-c9f991e689a9")
+	)
+	(label "IMU_MOSI"
+		(at 238.76 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0718b0-e179-4216-a02f-e43ed089dc32")
+	)
+	(wire
+		(pts (xy 233.68 165.1) (xy 238.76 165.1))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b933a2-c32b-4db2-bf5b-64bf9ee89b95")
+	)
+	(label "IMU_MISO"
+		(at 238.76 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cba6009-c1d2-448b-9cf6-cdc20dcf1371")
+	)
+	(wire
+		(pts (xy 233.68 167.64) (xy 238.76 167.64))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c265c692-c960-4b6f-acbb-01356b3c3cfd")
+	)
+	(label "IMU_CS"
+		(at 238.76 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "700d63f1-b3cd-4e0d-bf6a-ac1a6bb9bdcb")
+	)
+	(wire
+		(pts (xy 233.68 99.06) (xy 238.76 99.06))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c4a596-ec39-435d-812e-0f002df00bae")
+	)
+	(label "IMU_INT1"
+		(at 238.76 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5408bffe-0f3a-43bd-baca-174650ee822d")
+	)
+	(wire
+		(pts (xy 233.68 101.6) (xy 238.76 101.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6648e8-fe71-4c86-934c-0df1c594dbb3")
+	)
+	(label "IMU_INT2"
+		(at 238.76 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f479d447-a556-4acf-ab23-f4ba3ae1e52a")
+	)
+	(wire
+		(pts (xy 233.68 104.14) (xy 238.76 104.14))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d45c6f8-0d7e-4433-8543-587878c0d44b")
+	)
+	(label "BMP_INT"
+		(at 238.76 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16999fac-dbaf-43ca-92ba-4dbcfba69c2a")
+	)
+	(symbol
+		(lib_id "phyphox-mini:BMI423")
+		(at 63.5 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b69f415d-b630-4ed9-ace9-d42e9c530a32")
+		(property "Reference" "U2"
+			(at 71.755 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI423"
+			(at 71.755 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi423-ds000.pdf"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BMI423"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch Sensortec"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bb13cef-e829-4e79-bb2b-bdd69c1421c6")
+		)
+		(pin "2"
+			(uuid "d0417b60-dc08-456c-adfd-e7509a327ce2")
+		)
+		(pin "3"
+			(uuid "9fc426d4-0956-4983-aa27-17e5814d9a61")
+		)
+		(pin "4"
+			(uuid "57096137-f1db-4b51-91b9-7bbcc449d084")
+		)
+		(pin "5"
+			(uuid "e3e5b81c-94c8-4dd1-8ce0-2a7422eb0eef")
+		)
+		(pin "6"
+			(uuid "10dc5bca-c81a-4417-805b-fa736bd4ff11")
+		)
+		(pin "7"
+			(uuid "59bcad18-3d07-40e9-b0af-c12a0254eba3")
+		)
+		(pin "8"
+			(uuid "f8bacf6b-75de-424c-8a6c-44c481b893dc")
+		)
+		(pin "9"
+			(uuid "da5940a2-536e-4843-95eb-cc0db25cea64")
+		)
+		(pin "10"
+			(uuid "babfd644-eb32-41ce-9ff8-69b4477f04c2")
+		)
+		(pin "11"
+			(uuid "d2c2bfbb-a761-43cb-8399-63c6cab3ef1b")
+		)
+		(pin "12"
+			(uuid "4f231473-c00f-4578-82c0-ab4c41e8b3fd")
+		)
+		(pin "13"
+			(uuid "fc0eef07-e8ba-4797-a9ff-99573ece63d7")
+		)
+		(pin "14"
+			(uuid "f4f80606-817d-4d23-b758-fe4cdbe7d36e")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 50.8 236.22) (xy 48.26 236.22))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c922c133-fa5c-4a07-9842-5e22564e21c1")
+	)
+	(label "IMU_MISO"
+		(at 48.26 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3454724-ccb9-4cf5-aefa-31efb1150940")
+	)
+	(no_connect
+		(at 73.66 238.76)
+		(uuid "4d2dfcfc-1db3-4393-9d12-db1c69159cb6")
+	)
+	(no_connect
+		(at 73.66 241.3)
+		(uuid "c32399be-5711-4321-b0b8-ec320113a933")
+	)
+	(wire
+		(pts (xy 50.8 246.38) (xy 48.26 246.38))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4c85df-b7b1-43f5-ba36-d3eef034be5b")
+	)
+	(label "IMU_INT1"
+		(at 48.26 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e43bc7f-d57b-4d2c-8c01-3a82894f6655")
+	)
+	(wire
+		(pts (xy 60.96 231.14) (xy 60.96 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5fe8ce8-8257-4d6c-831f-26353f3be6b0")
+	)
+	(wire
+		(pts (xy 60.96 254.0) (xy 60.96 256.54))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86841f1c-ee4f-4c93-86b1-17493e0d0fe5")
+	)
+	(wire
+		(pts (xy 63.5 254.0) (xy 63.5 256.54))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005ef2db-fd35-4738-83b6-cb8ee178a280")
+	)
+	(wire
+		(pts (xy 63.5 231.14) (xy 63.5 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d90246a-0347-49ec-ae3e-74cb442a1875")
+	)
+	(wire
+		(pts (xy 50.8 248.92) (xy 48.26 248.92))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb67c28-5f9a-46e8-af78-c362df31bb73")
+	)
+	(label "IMU_INT2"
+		(at 48.26 248.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eb05a4c-79cc-4822-89f1-f4b3a85c3d0e")
+	)
+	(no_connect
+		(at 73.66 243.84)
+		(uuid "f572bc66-c6fd-4762-a748-e0dfa294ec70")
+	)
+	(no_connect
+		(at 73.66 246.38)
+		(uuid "cabbb939-5de8-4443-b276-c28ffd70e9ad")
+	)
+	(wire
+		(pts (xy 50.8 243.84) (xy 48.26 243.84))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6c4e7c-5dea-4bf0-b3bc-f91b9ed16e3c")
+	)
+	(label "IMU_CS"
+		(at 48.26 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edfea417-3037-4ab1-bea8-f21c6a561844")
+	)
+	(wire
+		(pts (xy 50.8 241.3) (xy 48.26 241.3))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbbbb88-7715-4aec-9036-2534c1bafbfd")
+	)
+	(label "IMU_SCK"
+		(at 48.26 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "494045aa-b9df-45bc-b631-660df349e7b8")
+	)
+	(wire
+		(pts (xy 50.8 238.76) (xy 48.26 238.76))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa95516-9c67-402a-a034-705d2c6cea40")
+	)
+	(label "IMU_MOSI"
+		(at 48.26 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47e3d657-d1a5-408a-8202-32bdb7ec52ca")
+	)
+	(wire
+		(pts (xy 60.96 228.6) (xy 63.5 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f97708-8dc8-4cd4-8d1d-e81705059696")
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 60.96 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "84f3dc99-38bd-4ce9-a726-960dd2290629")
+		(property "Reference" "#PWR129"
+			(at 60.96 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 60.96 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "273e3a70-4435-4b80-81d9-aa2ef8accbdc")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 60.96 256.54) (xy 63.5 256.54))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af8382e-e06a-44a8-9137-0ad4aabd9a2e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "eb4eaec2-5b38-4aa7-950b-d6ad2a9da541")
+		(property "Reference" "#PWR130"
+			(at 60.96 262.89000000000004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d1702bb-03d8-4069-806f-1d0eb5115dbc")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "071c5a5c-9a16-49c9-93ff-08a7bd7311a1")
+		(property "Reference" "C30"
+			(at 88.9 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 88.9 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "807ced84-de5e-4729-b74e-4bb389ea71d9")
+		)
+		(pin "2"
+			(uuid "6ee2c2b6-de98-4c8e-839c-fd686de067fb")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 86.36 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "40a50820-9f38-4cc5-88ca-00fe67a33390")
+		(property "Reference" "#PWR131"
+			(at 86.36 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 86.36 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3610bc97-3e1b-443b-ba1a-2865b8613b11")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "6b373af9-6f59-4d1a-88e7-d3aad55a4049")
+		(property "Reference" "#PWR132"
+			(at 86.36 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7251bfa-b905-48d6-bc67-78bcc395f276")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99f8ae6d-bdb8-4124-8807-d302edf0bd48")
+		(property "Reference" "C31"
+			(at 96.52000000000001 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 96.52000000000001 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b109011-17fc-496b-9199-ba8b2e8edef2")
+		)
+		(pin "2"
+			(uuid "b9352dfb-54da-4ac4-b188-ddb5eaa434e7")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 93.98 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4be6886d-563c-493c-9156-ef2d5b7feff5")
+		(property "Reference" "#PWR133"
+			(at 93.98 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 93.98 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3178554a-4ad9-428b-bc14-489943b2f305")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7efb2d76-c4a0-4f3c-9a69-d838fbf96802")
+		(property "Reference" "#PWR134"
+			(at 93.98 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73b2e613-d1bf-4a1e-a040-77512a349605")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "IMU BMI423 (SPI, SPIM00)"
+		(exclude_from_sim no)
+		(at 30.48 218.44 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbf77dbe-a73c-4af2-a4bd-85db283b1a0e")
+	)
+	(text "SPIM00 auf P2 (feste Pins): SCK P2.01, SDO P2.02,"
+		(exclude_from_sim no)
+		(at 30.48 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "856c37e1-022c-4949-b88f-85e0ce170b3a")
+	)
+	(text "SDI P2.04, CSN P2.05. INT1/INT2 auf P0.00/P0.01"
+		(exclude_from_sim no)
+		(at 30.48 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d1233e1-6899-4d0f-b75c-bfa60287e595")
+	)
+	(text "(weckfaehig). C30 an VDDIO, C31 an VDD."
+		(exclude_from_sim no)
+		(at 30.48 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d5720ca-0fe8-4a62-98f0-8841a1620fcd")
+	)
+	(rectangle
+		(start 27.94 213.36)
+		(end 101.6 274.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4b258c82-ea75-46b2-8fa4-6072e80d7e4d")
+	)
+	(symbol
+		(lib_id "phyphox-mini:BMP581")
+		(at 134.62 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b06126c4-a3f8-4c0c-89bf-b2748e58e759")
+		(property "Reference" "U3"
+			(at 142.875 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 142.875 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "phyphox-mini:BMP581_LGA-10_2x2mm_P0.5mm"
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BMP581"
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch Sensortec"
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9281463e-bd34-46dc-9c85-dac7e952b0cf")
+		)
+		(pin "2"
+			(uuid "eb9ac9d9-b2e4-4462-8133-2d21087f0562")
+		)
+		(pin "3"
+			(uuid "208fcd79-23f2-4cee-a130-b64a276b4b73")
+		)
+		(pin "4"
+			(uuid "052880cc-9db8-4338-ac38-516e6d4acbae")
+		)
+		(pin "5"
+			(uuid "41d2fb5f-c555-4c7e-bf09-cb724044c481")
+		)
+		(pin "6"
+			(uuid "3232d81e-5450-4037-8eb7-050920e94126")
+		)
+		(pin "7"
+			(uuid "bdfe0ad3-d236-4439-8b19-b44997804295")
+		)
+		(pin "8"
+			(uuid "fa63495c-1066-4f5e-b7c8-fa06bb31dc59")
+		)
+		(pin "9"
+			(uuid "360070d3-8641-4704-9467-1cccaa038f8c")
+		)
+		(pin "10"
+			(uuid "9adb7322-2f67-4f36-ae0b-096b417e002f")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 124.46 236.22) (xy 114.3 236.22))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e7a985-fed7-476a-bebf-dee2c763ff70")
+	)
+	(label "I2C_SCL"
+		(at 114.3 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c74724b5-05ce-4934-9e8a-a1c73c4f0eda")
+	)
+	(wire
+		(pts (xy 124.46 238.76) (xy 114.3 238.76))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a032e0fe-0ba5-40e5-85fb-2a691bb7debb")
+	)
+	(label "I2C_SDA"
+		(at 114.3 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1da637d0-02ff-4174-bc7d-383860796286")
+	)
+	(wire
+		(pts (xy 124.46 241.3) (xy 116.84 241.3))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e4a748-bbdf-420d-85f5-818be0b3d7e6")
+	)
+	(wire
+		(pts (xy 124.46 243.84) (xy 121.92 243.84))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31cabfa-e51e-4e0e-908d-bffeb28c42fa")
+	)
+	(wire
+		(pts (xy 124.46 246.38) (xy 114.3 246.38))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8ecbb2-099d-44df-91cf-24268dc50ac4")
+	)
+	(label "BMP_INT"
+		(at 114.3 246.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "339efe84-1c11-448d-9a97-d81eb4a43a3d")
+	)
+	(wire
+		(pts (xy 132.08 231.14) (xy 132.08 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdcb3ab-d7f4-43de-a24c-823e761cdcf8")
+	)
+	(wire
+		(pts (xy 137.16 231.14) (xy 137.16 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4d8a54-6b8f-4e65-ae58-85ad9158209a")
+	)
+	(wire
+		(pts (xy 132.08 251.46) (xy 132.08 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14698aa7-c5e6-4827-a5cb-9fe6a53ce1f9")
+	)
+	(wire
+		(pts (xy 134.62 251.46) (xy 134.62 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b98ee85-1f99-4bac-bd52-3728137c123c")
+	)
+	(wire
+		(pts (xy 137.16 251.46) (xy 137.16 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a739c29-60b1-4eb8-b959-54f39df5e4e9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 241.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2ac72ca3-0e5e-4812-957d-c0cf73d9f479")
+		(property "Reference" "#PWR135"
+			(at 116.84 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 241.3 270)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "117e20a6-c044-420f-99bc-da95f89adcd9")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 121.92 243.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "3f3b80d6-90d8-4b95-a3fd-615758c3ebf8")
+		(property "Reference" "#PWR136"
+			(at 121.92 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 116.84 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea43f2ba-5c54-4612-ba89-948bd5bdda2f")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 132.08 228.6) (xy 137.16 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb69896-8239-4ba8-8d70-234405de7357")
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 132.08 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ad496eee-a7d4-43cd-a1dc-8d07224a55f9")
+		(property "Reference" "#PWR137"
+			(at 132.08 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 132.08 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9a6b5e7-49e3-461b-85da-8deb219bedb5")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 132.08 254.0) (xy 134.62 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "787f8be8-ece8-49ba-b01e-5741096f75f5")
+	)
+	(wire
+		(pts (xy 134.62 254.0) (xy 137.16 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b207a7fc-4ba0-44fd-83b4-c6a6bb5eafb6")
+	)
+	(junction
+		(at 134.62 254.0)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdc1b545-76c4-4e56-85fc-13366aa26639")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 254.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "0890fcec-ff7d-4512-be10-5b95029f3e62")
+		(property "Reference" "#PWR138"
+			(at 134.62 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ca997bd-2243-40df-ab20-b7a805bf685c")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dfcfdb3-4e2e-4819-baaf-ca5da1394d77")
+		(property "Reference" "C32"
+			(at 160.01999999999998 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 160.01999999999998 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59458a78-007b-460b-89fb-84593c282f44")
+		)
+		(pin "2"
+			(uuid "40bb8269-ebaa-47c4-8078-022453004a08")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 157.48 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "7415f569-1cc4-4414-beab-9c054a936b8b")
+		(property "Reference" "#PWR139"
+			(at 157.48 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 157.48 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14dfc6f8-2391-4e7c-bfd9-3fb85618ceb7")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9923b9b2-88e5-43b9-b716-30446957e6d4")
+		(property "Reference" "#PWR140"
+			(at 157.48 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78f23327-02a4-41eb-926a-5b655f46eb3f")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33ac1b94-947e-4245-86f7-67894c285e9a")
+		(property "Reference" "C33"
+			(at 167.64 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "743ba762-c2c4-47a2-8f09-14c188e0f368")
+		)
+		(pin "2"
+			(uuid "4fd4449f-2a73-433d-bdfc-1b675425e34c")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 165.1 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "068c90b3-e1f8-4c4d-94c2-a6c163fcc09b")
+		(property "Reference" "#PWR141"
+			(at 165.1 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 165.1 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1a0c23b-85e5-48f0-8856-35a3e6fda2e6")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "1da76ea9-fb59-44e1-94df-71fae9d742d3")
+		(property "Reference" "#PWR142"
+			(at 165.1 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "694e9f51-d010-4968-93f0-859caa3cc66f")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Luftdruck BMP581 (I2C 0x46)"
+		(exclude_from_sim no)
+		(at 106.68 218.44 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a0f1e9-c735-4ba8-a9e3-cf5ddebdee51")
+	)
+	(text "SDO=GND -> 0x46, CSB=VDDIO -> I2C, INT -> P0.02."
+		(exclude_from_sim no)
+		(at 106.68 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb512ca7-190c-4c48-8cff-71c0a1dae524")
+	)
+	(text "Kein Loetstopp, keine Vias/Leiterbahnen unter dem Sensor."
+		(exclude_from_sim no)
+		(at 106.68 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ebe760b-804e-43c4-8348-d0d704892cc4")
+	)
+	(rectangle
+		(start 104.14 213.36)
+		(end 175.26 274.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "80e3032f-f557-4668-8770-29df5c24c300")
+	)
+	(symbol
+		(lib_id "phyphox-mini:STCC4")
+		(at 200.66 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c095592f-3427-4da1-bdda-f94cabc5139f")
+		(property "Reference" "U4"
+			(at 208.915 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STCC4"
+			(at 208.915 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "phyphox-mini:STCC4_LGA-8_3x4mm"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/6AED4B15/69295E41/CD_DS_STCC4_D1.pdf"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STCC4-D-R3"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sensirion"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd6db723-e9f7-4f16-904e-e7ed801c9c01")
+		)
+		(pin "2"
+			(uuid "2eb371a4-4e9d-4bef-b93d-4a0cfe286380")
+		)
+		(pin "3"
+			(uuid "10e0c7d1-6d3e-4636-bb8e-2536a190cad9")
+		)
+		(pin "4"
+			(uuid "a3b4f27a-2651-494f-9349-9b112f931e17")
+		)
+		(pin "5"
+			(uuid "1654e982-43b8-4566-9c36-78983ddfa168")
+		)
+		(pin "6"
+			(uuid "376e4bd7-4b5e-403e-b9ec-b5b4f1bdd280")
+		)
+		(pin "7"
+			(uuid "31f212c8-f051-4cf2-8883-6f5be8c08b7b")
+		)
+		(pin "8"
+			(uuid "ae0059ce-1daa-4c8b-b489-e5c69f4fb111")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 190.5 238.76) (xy 187.96 238.76))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb993319-7dbd-4c52-bb32-91aa4c9b655c")
+	)
+	(label "I2C_SCL"
+		(at 187.96 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "213bffa3-a363-41f5-879e-61ffd7f275bb")
+	)
+	(wire
+		(pts (xy 190.5 241.3) (xy 187.96 241.3))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d8c3aa-5350-46f0-affb-25909a63c92e")
+	)
+	(label "I2C_SDA"
+		(at 187.96 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f3c00ee-88a5-4a63-b992-dbb5b6e34543")
+	)
+	(wire
+		(pts (xy 190.5 243.84) (xy 187.96 243.84))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867669c9-6b8e-4e30-b30f-1ec3502f9edc")
+	)
+	(wire
+		(pts (xy 210.82 240.03) (xy 213.36 240.03))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2cd2ea-9cf3-4add-b4d6-989047324bd4")
+	)
+	(label "STCC4_SDA_C"
+		(at 213.36 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e231bbc-5c9a-40fc-b126-fc40e659fd8c")
+	)
+	(wire
+		(pts (xy 210.82 242.57) (xy 213.36 242.57))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bfd828-90a1-4d16-a2f9-dbddd86079bd")
+	)
+	(label "STCC4_SCL_C"
+		(at 213.36 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbc154b8-1084-4b35-87a7-011a27367f48")
+	)
+	(wire
+		(pts (xy 198.12 231.14) (xy 198.12 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebcf34fa-2ffe-43b4-8785-e2d95f94c220")
+	)
+	(wire
+		(pts (xy 203.2 231.14) (xy 203.2 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2698672e-3d44-46ec-9a94-e493f799bb00")
+	)
+	(wire
+		(pts (xy 200.66 251.46) (xy 200.66 254.0))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7359ac-c3f3-45a4-ac0a-3a8852b8534e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 243.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8248f850-9ae0-4a2e-98d2-9f051b3bbfbc")
+		(property "Reference" "#PWR143"
+			(at 187.96 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 243.84 270)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f163cd37-b6cb-4435-9a77-632f9f821948")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 198.12 228.6) (xy 203.2 228.6))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153cc567-e83b-4d70-bd79-11fede6ead1a")
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 198.12 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "15c3ef92-3b8c-46ad-b803-d796adbf78da")
+		(property "Reference" "#PWR144"
+			(at 198.12 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 198.12 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "665ae467-4ae0-4c36-b438-3b4e3293dd83")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 254.0 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "29691023-4d38-41f2-8ed2-ded1ee06152a")
+		(property "Reference" "#PWR145"
+			(at 200.66 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 254.0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2cf4387-3a41-478b-8f33-5fecb6d6d04e")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79a9a1ad-6e3e-4fe7-a207-bd33cd0c0616")
+		(property "Reference" "C34"
+			(at 236.22 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 236.22 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "029ac65f-1586-4a00-bfde-10e29d1c087c")
+		)
+		(pin "2"
+			(uuid "2da3b5ee-0a56-40ed-97cf-d198f2da2f92")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 233.68 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "fe362f33-a824-4762-a83f-fbfa151ff49f")
+		(property "Reference" "#PWR146"
+			(at 233.68 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 233.68 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19d8d5e0-1833-4ad5-b785-ae4b5310cb3c")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "e40bb20c-e54a-41be-adbb-82c7a0ad75fc")
+		(property "Reference" "#PWR147"
+			(at 233.68 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08332039-4c5e-4f4a-90a9-be9dfce711dd")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Humidity:SHT4x")
+		(at 269.24 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d258970-e5da-4524-9159-afd1737dcb89")
+		(property "Reference" "U5"
+			(at 274.955 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHT40-AD1B"
+			(at 274.955 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "phyphox-mini:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/6A7C10A0/HT_DS_Datasheet_SHT4x_V7.3.pdf"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SHT40-AD1B"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sensirion"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f664c042-3167-4d71-a6aa-691091f7d61f")
+		)
+		(pin "2"
+			(uuid "26f4a7bd-d8c5-413f-8d04-fdc8d0ff8bce")
+		)
+		(pin "3"
+			(uuid "4e663688-0ad2-4ca5-9f5e-118ea7bb2d4d")
+		)
+		(pin "4"
+			(uuid "a3a0ce3a-5134-4261-91ee-83ca46221a2e")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 261.62 243.84) (xy 259.08 243.84))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80b1d13-6af1-487b-bcad-30fae1c6c20d")
+	)
+	(label "STCC4_SDA_C"
+		(at 259.08 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55d82714-950e-4811-b092-580887c27d76")
+	)
+	(wire
+		(pts (xy 261.62 238.76) (xy 259.08 238.76))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6c3e43-bd85-4d04-a3b1-93b0f6819d02")
+	)
+	(label "STCC4_SCL_C"
+		(at 259.08 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af5cff1f-c255-451f-918c-bc25b178236e")
+	)
+	(wire
+		(pts (xy 271.78 233.68) (xy 271.78 231.14))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee96331c-13e8-4e90-afc8-b0304dce86d3")
+	)
+	(wire
+		(pts (xy 271.78 248.92) (xy 271.78 251.46))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95282b2-f4e2-4271-8c5f-1ec6f463f64b")
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 271.78 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "cb32376d-740d-4609-818a-2e5aeafae313")
+		(property "Reference" "#PWR148"
+			(at 271.78 237.48999999999998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 271.78 227.32999999999998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f6a0674-232c-4949-9c0d-06cc43f8103f")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "ebd1f7dd-6144-475b-8533-955e80bf10b7")
+		(property "Reference" "#PWR149"
+			(at 271.78 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0798b6e-39fb-4d36-b9ca-bc0ed38d2e45")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 289.56 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca15caf8-2637-4e4b-ae82-fc8cd4deca53")
+		(property "Reference" "C35"
+			(at 292.1 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 292.1 242.57000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R, 6.3 V"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06e32cc7-fdba-4ef8-ae27-17f462e1f9ce")
+		)
+		(pin "2"
+			(uuid "545bd3b5-33a3-42d4-907d-5ae161931964")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 289.56 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "1d8b8e5b-c4c6-4ef4-8b38-258a91da87de")
+		(property "Reference" "#PWR150"
+			(at 289.56 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 289.56 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e52176f4-bf5f-4d10-9928-0d89fa06f769")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "6c340731-b72c-4ee2-80ef-1f5635b88f74")
+		(property "Reference" "#PWR151"
+			(at 289.56 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 248.92000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04725759-46a3-413b-9a37-60d05a804eb4")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "CO2 STCC4 (I2C 0x64) + SHT4x"
+		(exclude_from_sim no)
+		(at 180.34 218.44 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1064c973-ce0b-49ec-b596-3a62e5bdada0")
+	)
+	(text "SHT4x (0x44) haengt am Controller-Bus des STCC4 (SDA_C/SCL_C, interne 10k Pull-ups)."
+		(exclude_from_sim no)
+		(at 180.34 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d87acda4-88fe-41d0-907d-50efe6fcad55")
+	)
+	(text "Der STCC4 liest T/RH selbst und gibt sie mit aus. ADDR=GND -> 0x64."
+		(exclude_from_sim no)
+		(at 180.34 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3570e87-c784-4754-964d-8dd3fb2b889c")
+	)
+	(text "ACHTUNG: STCC4 braucht VDD >= 2,7 V (CR2032 faellt darunter)."
+		(exclude_from_sim no)
+		(at 180.34 270.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3280add1-ce46-4e31-817e-6b36ce5592d8")
+	)
+	(rectangle
+		(start 177.8 213.36)
+		(end 297.18 274.32)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8fd4e3e6-1c21-445c-84c1-c4f0134e095e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68b35abe-1279-48df-a109-7fc48b0e0d2f")
+		(property "Reference" "R10"
+			(at 309.88 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 309.88 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae44f340-4504-4fb5-9a0a-6d434696d661")
+		)
+		(pin "2"
+			(uuid "290658a9-052d-4166-8baf-ab62f72f6a85")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 307.34 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "229ce646-1bf0-4c67-8231-8edc682d7afe")
+		(property "Reference" "#PWR152"
+			(at 307.34 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 307.34 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a210e66b-9d5d-4e38-97af-25e4b6dad8e1")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 307.34 240.03) (xy 307.34 242.57))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375d3168-bf17-4200-b28f-bfc267ee1785")
+	)
+	(label "I2C_SCL"
+		(at 307.34 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b5afd75-095c-4a8d-90e8-90d0f91420a2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 322.58 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73100e9a-e082-4545-b808-7f8f4d8f1880")
+		(property "Reference" "R11"
+			(at 325.12 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 325.12 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "291df1d6-15c3-43f5-8c19-198bc98db29f")
+		)
+		(pin "2"
+			(uuid "3bbb65e9-914d-4285-882f-9cb5e1278b41")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 322.58 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9cea19c5-5111-43df-80d5-40188eb7e503")
+		(property "Reference" "#PWR153"
+			(at 322.58 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 322.58 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6399f3db-3dda-428e-a829-0fcdeaa928cb")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "#PWR153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts (xy 322.58 240.03) (xy 322.58 242.57))
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a6397e-1719-42a5-bb51-fe4c42e2e9a5")
+	)
+	(label "I2C_SDA"
+		(at 322.58 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cf15234-a838-4a2c-8b2f-064664c87580")
+	)
+	(text "I2C Pull-ups"
+		(exclude_from_sim no)
+		(at 302.26 218.44 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86d8f56c-1fd2-4d84-9ed9-4c066e68a442")
+	)
+	(text "TWIM2x auf P1:"
+		(exclude_from_sim no)
+		(at 302.26 222.885 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deab1d41-6a2f-4504-927c-83e73e2dca3e")
+	)
+	(text "SCL P1.08 (CK-Pin), SDA P1.07"
+		(exclude_from_sim no)
+		(at 302.26 225.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e30fbca5-02bf-480b-93a5-e95d37b1fe54")
+	)
+	(rectangle
+		(start 299.72 213.36)
+		(end 345.44 247.65)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a9e43369-6c01-49b7-a9a3-32b44f2fa658")
 	)
 	(sheet_instances
 		(path "/"
