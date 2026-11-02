@@ -1,0 +1,70 @@
+(version 1)
+#----------------------------------------------------------------------------------------------------
+# Gemeinsamer Fertigungsstandard 4-Lagen, 1,6 mm, 35 µm, ENIG
+# fuer AISLER (4L 35µm ENIG), JLCPCB (4L Standard) und Eurocircuits (PCB proto / STANDARD pool, Klasse 6C)
+#
+# Die Grundwerte stehen in Board-Setup > Constraints (.kicad_pro):
+#   Leiterbahn/Abstand 0,15 mm | Via min 0,25/0,60 mm (Restring 0,175 mm) | Kupfer-Rand 0,3 mm
+#   Bohrung-Kupfer 0,25 mm | Bohrung-Bohrung 0,35 mm | Silk-Pad 0,15 mm | Text 1,0 / 0,15 mm
+# Hier stehen nur die Regeln, die sich dort nicht abbilden lassen.
+#
+# Hinweis: KiCad rechnet mit Endmass (fertige Bohrung). Eurocircuits rechnet Restringe und
+# Bohrabstaende ab Werkzeug = Endmass + 0,10 mm (durchkontaktiert). Die Werte sind schon umgerechnet.
+# Stand der Herstellerdaten: 11/2026, Details siehe docs/fertigungsregeln.md
+#----------------------------------------------------------------------------------------------------
+
+# Nur durchgehende Vias: AISLER kann keine Blind-/Buried-/Micro-Vias, bei den anderen kosten sie extra.
+(rule "Keine Blind/Buried-Vias"
+    (constraint disallow buried_via))
+
+(rule "Keine Micro-Vias"
+    (constraint disallow micro_via))
+
+# AISLER fertigt Bohrungen bis 0,45 mm als Via, groessere als Bauteilbohrung (dann 0,3 mm Restring).
+(rule "Via max. Bohrung 0,45 mm"
+    (condition "A.Type == 'Via'")
+    (constraint hole_size (max 0.45mm)))
+
+# Kupfer zum Platinenrand: Innenlagen 0,4 mm (Eurocircuits), Aussenlagen 0,3 mm (Board-Setup).
+# (Ein "(layer inner)"-Filter wirkt bei edge_clearance nicht zuverlaessig, daher per condition.)
+(rule "Kupfer-Rand Innenlagen"
+    (condition "A.existsOnLayer('In1.Cu') || A.existsOnLayer('In2.Cu')")
+    (constraint edge_clearance (min 0.4mm)))
+
+# Bestueckungsdruck zum Platinenrand (Eurocircuits 0,25 mm). KiCad prueft Silk-Rand ueber silk_clearance.
+(rule "Silk-Rand"
+    (condition "A.Layer == 'Edge.Cuts' || B.Layer == 'Edge.Cuts'")
+    (constraint silk_clearance (min 0.25mm)))
+
+# Bauteilbohrungen (durchkontaktiert > 0,45 mm): Restring 0,3 mm (AISLER).
+(rule "Restring Bauteilbohrung"
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.Hole_Size_X > 0.45mm")
+    (constraint annular_width (min 0.3mm)))
+
+# Bohrung von Pads (PTH/NPTH) zu fremdem Kupfer: 0,3 mm (JLCPCB PTH->Innenlage 0,3 / ->Leiterbahn 0,28,
+# AISLER NPTH-Schlitz 0,3). Vias bleiben bei 0,25 mm (Board-Setup).
+(rule "Pad-Bohrung zu Kupfer"
+    (condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical')")
+    (constraint hole_clearance (min 0.3mm)))
+
+# Bohrung zu Bohrung, wenn eine Pad-Bohrung beteiligt ist: 0,45 mm (JLCPCB).
+(rule "Pad-Bohrung zu Bohrung"
+    (condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical')")
+    (constraint hole_to_hole (min 0.45mm)))
+
+# Groesste Bohrung 5,6 mm (AISLER, aus deren KiCad-Regeln).
+(rule "Bohrung max. 5,6 mm"
+    (condition "A.Type == 'Pad'")
+    (constraint hole_size (max 5.6mm)))
+
+# Nicht durchkontaktierte Bohrungen 0,5 ... 5,6 mm (JLCPCB/AISLER min. 0,5 mm).
+# Muss nach der Max-Regel stehen: bei KiCad gewinnt die letzte passende Regel.
+(rule "NPTH min. 0,5 mm"
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical'")
+    (constraint hole_size (min 0.5mm) (max 5.6mm)))
+
+# Loetstoppmaske nicht pro Pad verkleinern/vergroessern - Hersteller passen die Maske selbst an
+# (AISLER-Vorgabe, aus deren KiCad-Regeln). Globale Maskenerweiterung ist 0.
+(rule "Keine Loetstopp-Overrides an Pads"
+    (condition "A.Type == 'Pad'")
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null"))

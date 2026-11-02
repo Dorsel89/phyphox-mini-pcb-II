@@ -1,0 +1,32 @@
+# KiCad: automatische Backups und Autosave
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+
+# KiCad: Lock-Dateien (geöffnetes Projekt)
+~*.lck
+*.lck
+
+# KiCad: lokale Ansichtseinstellungen (sichtbare Lagen, Fensterzustand) und Caches
+*.kicad_prl
+fp-info-cache
+*.tmp
+
+# Lokale Tool-Konfiguration (enthaelt rechnerspezifische Pfade)
+.mcp.json
+
+# Editoren / Betriebssystem
+.history/
+.vscode/
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
