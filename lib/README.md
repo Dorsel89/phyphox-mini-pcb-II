@@ -6,7 +6,7 @@ Eingebunden über `sym-lib-table` / `fp-lib-table` mit `${KIPRJMOD}`.
 | Datei | Inhalt | Herkunft |
 |---|---|---|
 | `phyphox-mini.kicad_sym` → `nRF54L15-QFAA` | Schaltplansymbol | Eigene Erstellung; Pinbelegung aus dem nRF54L15-Datenblatt (QFN48 pin assignments) |
-| `phyphox-mini.pretty/nRF54L15-QFAA_QFN-48-1EP_6x6mm_P0.4mm` | Footprint | Eigene Erstellung; Maße (Pads 0,2 × 0,65 mm @ 3,025 mm, EP 4,7 mm) nach Nordic nRF54L15-QFAA Reference Layout v0.8 |
+| `phyphox-mini.pretty/nRF54L15-QFAA_QFN-48-1EP_6x6mm_P0.4mm` | Footprint | Eigene Erstellung; Maße (Pads 0,2 × 0,65 mm @ 3,025 mm, EP 4,7 mm) nach Nordic nRF54L15-QFAA Reference Layout v0.8; 16 Masse-Vias im EP (4×4, Raster 1,2 mm, 0,25/0,6 mm) wie im Referenzlayout |
 | `phyphox-mini.3dshapes/nRF54L15-QFAA_QFN-48-1EP_6x6mm_P0.4mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (6 × 6 × 0,85 mm, P 0,4 mm, EP 4,6 mm) |
 
 Diese Dateien fallen unter die Lizenz des Projekts.

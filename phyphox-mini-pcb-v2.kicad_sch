@@ -5352,7 +5352,18 @@
 				)
 			)
 		)
-		(property "MPN" "Keystone 3034"
+		(property "MPN" "3034"
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Keystone"
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5756,6 +5767,39 @@
 		)
 		(property "Spec" "X5R 6.3V, Puffer für Pulsströme"
 			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 57.785 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 57.785 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C16780"
+			(at 57.785 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,6 +7754,39 @@
 				)
 			)
 		)
+		(property "MPN" "X201632MKB4SI"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YXC"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C718072"
+			(at 48.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1376900d-3e85-4088-afde-2770ad918b0f")
 		)
@@ -7883,7 +7960,18 @@
 				)
 			)
 		)
-		(property "MPN" "Micro Crystal CM8V-T1A 32.768kHz 9.0pF ±20ppm"
+		(property "MPN" "CM8V-T1A 32.768kHz 9.0pF ±20ppm"
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Micro Crystal"
 			(at 83.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7973,7 +8061,18 @@
 				)
 			)
 		)
-		(property "MPN" "Murata LQP03HQ2N7B02"
+		(property "MPN" "LQP03HQ2N7B02"
+			(at 38.1 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 38.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8065,7 +8164,18 @@
 				)
 			)
 		)
-		(property "MPN" "Murata GJM0335C1E1R5WB01"
+		(property "MPN" "GJM0335C1E1R5WB01"
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 45.72 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8232,7 +8342,18 @@
 				)
 			)
 		)
-		(property "MPN" "Murata LQP03HQ3N5B02"
+		(property "MPN" "LQP03HQ3N5B02"
+			(at 53.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8324,7 +8445,18 @@
 				)
 			)
 		)
-		(property "MPN" "Murata GJM0335C1E2R0WB01"
+		(property "MPN" "GJM0335C1E2R0WB01"
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 60.96 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8491,7 +8623,18 @@
 				)
 			)
 		)
-		(property "MPN" "Murata LQP03HQ3N5B02"
+		(property "MPN" "LQP03HQ3N5B02"
+			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 68.58 177.8 0)
 			(hide yes)
 			(show_name no)
