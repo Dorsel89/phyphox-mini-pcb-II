@@ -5384,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 77.47) (xy 325.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153a774f-4639-46c0-bcbe-634525727a4f")
+	)
+	(wire
+		(pts
 			(xy 198.12 228.6) (xy 203.2 228.6)
 		)
 		(stroke
@@ -5731,6 +5741,16 @@
 			(type default)
 		)
 		(uuid "5182a0c4-c7a2-44cf-a26a-f616468e67ff")
+	)
+	(wire
+		(pts
+			(xy 233.68 139.7) (xy 238.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528af1f1-eb80-41ab-a7db-0a5a3a4c56ca")
 	)
 	(wire
 		(pts
@@ -6124,6 +6144,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 137.16) (xy 238.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c64a2f-c72a-41ac-b4cb-357eca9351b1")
+	)
+	(wire
+		(pts
 			(xy 132.08 228.6) (xy 137.16 228.6)
 		)
 		(stroke
@@ -6151,6 +6181,16 @@
 			(type default)
 		)
 		(uuid "b8d8c3aa-5350-46f0-affb-25909a63c92e")
+	)
+	(wire
+		(pts
+			(xy 320.04 80.01) (xy 325.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca60535-d25c-43d3-98b1-1ea660f7b8b9")
 	)
 	(wire
 		(pts
@@ -6532,6 +6572,16 @@
 		)
 		(uuid "1da637d0-02ff-4174-bc7d-383860796286")
 	)
+	(label "UART_RX"
+		(at 325.12 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e1d37c6-6efa-4d14-8e23-cbddaa725826")
+	)
 	(label "IMU_INT1"
 		(at 48.26 246.38 180)
 		(effects
@@ -6712,6 +6762,16 @@
 		)
 		(uuid "700d63f1-b3cd-4e0d-bf6a-ac1a6bb9bdcb")
 	)
+	(label "UART_TX"
+		(at 325.12 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71ba8527-85db-4c16-bb3d-dc52e80ccfec")
+	)
 	(label "LED0"
 		(at 281.94 111.76 180)
 		(effects
@@ -6852,6 +6912,16 @@
 		)
 		(uuid "92ecd661-7224-4f96-8af8-ceb31cd3789a")
 	)
+	(label "UART_TX"
+		(at 238.76 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a085d32f-a86e-4e43-8d0c-e0d7b3de6ddf")
+	)
 	(label "DECA"
 		(at 101.6 106.68 0)
 		(effects
@@ -6921,6 +6991,16 @@
 			(justify left bottom)
 		)
 		(uuid "bc95d3c7-4af7-4040-92b6-0e4c60150698")
+	)
+	(label "UART_RX"
+		(at 238.76 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6dce139-43c8-45be-a35b-1202c484d35b")
 	)
 	(label "I2C_SCL"
 		(at 114.3 236.22 180)
@@ -7220,7 +7300,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 86.36 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -7334,6 +7458,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf0743cf-95d6-4e3b-bdf5-5577c894c1b5")
 		)
@@ -7427,6 +7573,28 @@
 			)
 		)
 		(property "Manufacturer" "Keystone"
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 30.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7684,6 +7852,28 @@
 			)
 		)
 		(property "Manufacturer" "Sensirion"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 269.24 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -8010,8 +8200,52 @@
 				)
 			)
 		)
+		(property "Manufacturer" "TDK"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MLZ1608M4R7WT000"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "120 mA, 0.65 Ohm, ±20%"
 			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 38.1 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8413,51 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM0335C1HR30BA01D"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "NP0 ±0.05pF"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 76.2 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8271,7 +8549,51 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155C80J106ME11D"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "X6S 6.3V"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8537,7 +8859,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ef1050a-172d-4e2b-9679-c86a136be5df")
 		(property "Reference" "TP5"
 			(at 279.4 87.63 90)
@@ -8583,6 +8905,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.02 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 287.02 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 287.02 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +9092,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R"
+		(property "Manufacturer" "Murata"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104KE15D"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 81.28 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9038,6 +9426,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba510c9c-8ec3-4bc8-8864-26bc2a5c15e8")
 		)
@@ -9139,7 +9549,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f327a86-46de-4920-9e60-561bcee39a0c")
 		(property "Reference" "TP7"
 			(at 326.39 218.44 90)
@@ -9185,6 +9595,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 334.01 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 334.01 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 334.01 218.44 90)
 			(hide yes)
 			(show_name no)
@@ -9293,6 +9725,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e8a71ef-bb29-4f2e-a890-92c9b8fddb02")
 		)
@@ -9372,7 +9826,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 165.1 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9407,7 +9905,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "34d8f213-4f1c-4c2a-8f2a-e5349d0df236")
 		(property "Reference" "TP2"
 			(at 279.4 80.01 90)
@@ -9453,6 +9951,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.02 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 287.02 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 287.02 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -9541,7 +10061,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R"
+		(property "Manufacturer" "Murata"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104KE15D"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 71.12 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9633,7 +10197,51 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R71A222KA01D"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "X7R 10V"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9713,6 +10321,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 300.99 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 300.99 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 300.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9804,7 +10434,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, optional"
+		(property "Manufacturer" "Murata"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104KE15D"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V, optional"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9839,7 +10513,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "3bcd30c4-d971-4ae3-adfc-c66a5dc39fa7")
 		(property "Reference" "TP4"
 			(at 279.4 85.09 90)
@@ -9895,6 +10569,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 287.02 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 287.02 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2582ae46-e7dc-45d5-b1f1-c16833462b68")
 		)
@@ -9902,6 +10598,105 @@
 			(project "phyphox-mini-pcb-v2"
 				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 320.04 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "3ec909a8-95d2-4b62-bf4d-bd1996efd157")
+		(property "Reference" "TP8"
+			(at 312.42 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 312.42 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 320.04 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07b069d0-9b68-43ed-8bb7-a14e043a19b5")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -10204,7 +10999,73 @@
 				)
 			)
 		)
-		(property "Spec" "X6T 2.5V"
+		(property "Manufacturer" "Murata"
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GMC02X5R225K6R3NT"
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V"
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Hersteller-Teilenummer" ""
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10539,6 +11400,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 320.04 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "4ecce3bd-23a9-4450-9b8a-18228bc0257b")
+		(property "Reference" "TP9"
+			(at 312.42 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 312.42 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 320.04 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 320.04 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 320.04 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfe4835e-58ea-4521-9603-727a144f1380")
+		)
+		(instances
+			(project "phyphox-mini-pcb-v2"
+				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 35.56 60.96 0)
 		(unit 1)
@@ -10625,7 +11585,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "537ce9c3-4a0b-42f2-af67-79607eebb150")
 		(property "Reference" "AE1"
 			(at 121.92 167.64 0)
@@ -10672,6 +11632,28 @@
 			)
 		)
 		(property "Description" "TI AN043 Meandered Inverted-F PCB-Antenne, 50 Ohm"
+			(at 116.84 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 116.84 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 116.84 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10916,6 +11898,50 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae44f340-4504-4fb5-9a0a-6d434696d661")
 		)
@@ -11074,7 +12100,73 @@
 				)
 			)
 		)
-		(property "Spec" "X6T 2.5V"
+		(property "Manufacturer" "Murata"
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GMC02X5R225K6R3NT"
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V"
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Hersteller-Teilenummer" ""
 			(at 48.26 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11243,7 +12335,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R"
+		(property "Manufacturer" "Murata"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R61A104KE15D"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X5R 10V"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 60.96 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11410,6 +12546,50 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "291df1d6-15c3-43f5-8c19-198bc98db29f")
 		)
@@ -11502,6 +12682,28 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 68.58 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 68.58 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11612,7 +12814,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "753f7b92-5017-4638-a6ce-50ffbc6407af")
 		(property "Reference" "TP3"
 			(at 279.4 82.55 90)
@@ -11658,6 +12860,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.02 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 287.02 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 287.02 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -11744,7 +12968,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 233.68 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11988,8 +13256,52 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Murata"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BLM03AG121SN1D"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "200 mA, 0.5 Ohm max"
 			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 63.5 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 63.5 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12309,6 +13621,50 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 292.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0201FR-071KL"
+			(at 292.1 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "056be27d-c295-47a4-9a43-d7a00603d776")
 		)
@@ -12388,7 +13744,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12555,7 +13955,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12823,6 +14267,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "28de3f7e-6b27-4bf2-9d98-fae7e0fef94a")
 		)
@@ -12946,6 +14412,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1376900d-3e85-4088-afde-2770ad918b0f")
 		)
@@ -13034,6 +14522,28 @@
 			)
 		)
 		(property "Spec" "Antennen-Tuning, nicht bestückt"
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 106.68 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 106.68 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13301,6 +14811,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9281463e-bd34-46dc-9c85-dac7e952b0cf")
 		)
@@ -13396,6 +14928,50 @@
 			)
 		)
 		(property "Description" "Nordic nRF54L15 Multiprotokoll-SoC, QFN-48 6x6 mm"
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nordic Semiconductor"
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NRF54L15-QFAA-R"
 			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -13648,6 +15224,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61426382-cfcc-4559-9164-5c1d75eab337")
 		)
@@ -13730,6 +15328,28 @@
 			)
 		)
 		(property "Spec" "Antennen-Tuning, nicht bestückt"
+			(at 91.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 91.44 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 91.44 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13833,6 +15453,28 @@
 			)
 		)
 		(property "Manufacturer" "Bosch Sensortec"
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 63.5 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -13980,7 +15622,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "bba0843d-bca1-47aa-afc8-1e9b5803f48f")
 		(property "Reference" "TP6"
 			(at 326.39 215.9 90)
@@ -14026,6 +15668,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 334.01 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 334.01 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 334.01 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -14103,6 +15767,50 @@
 		)
 		(property "Description" ""
 			(at 289.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 289.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-071KL"
+			(at 289.56 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 289.56 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14292,6 +16000,28 @@
 				)
 			)
 		)
+		(property "Alternative" ""
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd6db723-e9f7-4f16-904e-e7ed801c9c01")
 		)
@@ -14389,7 +16119,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R, 6.3 V"
+		(property "Manufacturer" "Murata"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88D"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 16V"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 289.56 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -14787,8 +16561,52 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 99.06 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 99.06 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Spec" "Antennen-Tuning (0 Ohm / L / C)"
 			(at 99.06 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 99.06 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 99.06 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,7 +16697,51 @@
 				)
 			)
 		)
-		(property "Spec" "X7R"
+		(property "Manufacturer" "Murata"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM033R70J103KA01D"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "X7R 6.3V"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 86.36 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15134,7 +16996,7 @@
 				)
 			)
 		)
-		(property "MPN" "CM8V-T1A 32.768kHz 9.0pF ±20ppm"
+		(property "MPN" "CM8V-T1A-32.768KHZ-9PF-20PPM-TB-QA"
 			(at 83.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15146,6 +17008,50 @@
 			)
 		)
 		(property "Manufacturer" "Micro Crystal"
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Hersteller-Teilenummer" ""
 			(at 83.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15699,7 +17605,51 @@
 				)
 			)
 		)
-		(property "Spec" "NP0"
+		(property "Manufacturer" "Murata"
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GJM0333C1E3R9WB01D"
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spec" "NP0 ±0.05pF 25V"
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15811,7 +17761,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "f43a9b13-d9fe-4ae5-9593-a33a8727d9cb")
 		(property "Reference" "TP1"
 			(at 279.4 77.47 90)
@@ -15857,6 +17807,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 287.02 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 287.02 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC Part" ""
 			(at 287.02 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -15955,232 +17927,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts (xy 233.68 137.16) (xy 238.76 137.16))
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c64a2f-c72a-41ac-b4cb-357eca9351b1")
-	)
-	(label "UART_TX"
-		(at 238.76 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a085d32f-a86e-4e43-8d0c-e0d7b3de6ddf")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 320.04 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "3ec909a8-95d2-4b62-bf4d-bd1996efd157")
-		(property "Reference" "TP8"
-			(at 312.42 77.47 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 312.42 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 320.04 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07b069d0-9b68-43ed-8bb7-a14e043a19b5")
-		)
-		(instances
-			(project "phyphox-mini-pcb-v2"
-				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts (xy 320.04 77.47) (xy 325.12 77.47))
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153a774f-4639-46c0-bcbe-634525727a4f")
-	)
-	(label "UART_TX"
-		(at 325.12 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71ba8527-85db-4c16-bb3d-dc52e80ccfec")
-	)
-	(wire
-		(pts (xy 233.68 139.7) (xy 238.76 139.7))
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528af1f1-eb80-41ab-a7db-0a5a3a4c56ca")
-	)
-	(label "UART_RX"
-		(at 238.76 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6dce139-43c8-45be-a35b-1202c484d35b")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 320.04 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "4ecce3bd-23a9-4450-9b8a-18228bc0257b")
-		(property "Reference" "TP9"
-			(at 312.42 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 312.42 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 320.04 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfe4835e-58ea-4521-9603-727a144f1380")
-		)
-		(instances
-			(project "phyphox-mini-pcb-v2"
-				(path "/2e5467e6-0cb3-4bbd-b5c6-83f391bca9ee"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts (xy 320.04 80.01) (xy 325.12 80.01))
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bca60535-d25c-43d3-98b1-1ea660f7b8b9")
-	)
-	(label "UART_RX"
-		(at 325.12 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e1d37c6-6efa-4d14-8e23-cbddaa725826")
 	)
 	(sheet_instances
 		(path "/"
