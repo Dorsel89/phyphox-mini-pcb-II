@@ -11,9 +11,10 @@ Eingebunden über `sym-lib-table` / `fp-lib-table` mit `${KIPRJMOD}`.
 | `phyphox-mini.kicad_sym` → `BMI423` | Schaltplansymbol | Abgeleitet vom KiCad-Symbol `Sensor_Motion:BMI160` (gleiche LGA-14-Belegung); Pins 2/3/10/11 als NC nach BMI423-Datenblatt (BST-BMI423-DS000) |
 | `phyphox-mini.kicad_sym` → `BMP581` | Schaltplansymbol | Eigene Erstellung; Pinbelegung aus BST-BMP581-DS004 |
 | `phyphox-mini.kicad_sym` → `STCC4` | Schaltplansymbol | Eigene Erstellung; Pinbelegung aus Sensirion STCC4-Datenblatt D1 |
-| `phyphox-mini.pretty/BMP581_LGA-10_2x2mm_P0.5mm` | Footprint | Eigene Erstellung nach BST-BMP581-DS004 (Land Pattern: Package + 25 µm); ohne Lötstopp unter dem Sensor, Keepout für Leiterbahnen/Vias auf F.Cu |
+| `phyphox-mini.pretty/BMP581_LGA-10_2x2mm_P0.5mm` | Footprint | Eigene Erstellung nach BST-BMP581-DS004 (Land Pattern: Package + 25 µm); ohne Lötstopp unter dem Sensor, Keepout für Leiterbahnen/Vias auf F.Cu im Bereich innerhalb des Padrings (±0,45 mm) |
 | `phyphox-mini.pretty/STCC4_LGA-8_3x4mm` | Footprint | Eigene Erstellung nach STCC4-Datenblatt D1 (Pads 0,85 × 0,85 mm, Pin 1 mit Fase) |
 | `phyphox-mini.pretty/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad` | Footprint | Kopie des KiCad-Footprints gleichen Namens, nur das 3D-Modell zeigt auf das eigene Modell (KiCad liefert dafür keins mit) |
+| `phyphox-mini.pretty/Texas_SWRA117D_2.4GHz_Right_Pad2-0.65mm` | Footprint | Kopie des KiCad-Footprints `RF_Antenna:Texas_SWRA117D_2.4GHz_Right`; Pad 2 (Massebohrung) von 0,9 × 0,5 auf 0,9 × 0,65 mm vergrößert, damit der Restring 0,175 mm erreicht (Fertigungsregel) |
 | `phyphox-mini.3dshapes/BMP581_LGA-10_2x2mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (2,0 × 2,0 × 0,75 mm) |
 | `phyphox-mini.3dshapes/STCC4_LGA-8_3x4mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (3,0 × 4,0 × 1,17 mm) |
 | `phyphox-mini.3dshapes/SHT4x_DFN-4_1.5x1.5mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (1,5 × 1,5 × 0,5 mm) |
