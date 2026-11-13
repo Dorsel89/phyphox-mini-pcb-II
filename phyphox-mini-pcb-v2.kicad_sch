@@ -7157,6 +7157,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
+			(at 86.36 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "807ced84-de5e-4729-b74e-4bb389ea71d9")
 		)
@@ -7238,7 +7282,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM0335C1E2R0WB01"
+		(property "MPN" "GJM0335C1E2R0WB01D"
 			(at 60.96 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7272,6 +7316,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-12592-1-ND"
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GJM0335C1E2R0WB1D"
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3346165"
+			(at 60.96 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GJM0335C1E2R0WB01D"
 			(at 60.96 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7517,7 +7605,7 @@
 				)
 			)
 		)
-		(property "MPN" "SHT40-AD1B"
+		(property "MPN" "SHT40-AD1B-R3"
 			(at 269.24 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -7551,6 +7639,61 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "1649-SHT40-AD1B-R3CT-ND"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "403-SHT40-AD1B-R3"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3586476"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "SHT40AD1BR3-SEN-0"
+			(at 269.24 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "343550"
 			(at 269.24 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -7932,6 +8075,39 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "445-6390-1-ND"
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "810-MLZ1608M4R7WT000"
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2215636"
+			(at 38.1 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f39bdbf-71a3-4a23-a4ab-e5fd4d5ac20b")
 		)
@@ -8145,6 +8321,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-6135-1-ND"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM0335C1HR30BA1D"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2998785"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM0335C1HR30BA01D"
+			(at 76.2 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d43f563-f43e-4df2-95ad-8127d53a59a1")
 		)
@@ -8237,7 +8457,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM155C80J106ME11D"
+		(property "MPN" "GRM155R60J106ME05D"
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8248,7 +8468,7 @@
 				)
 			)
 		)
-		(property "Spec" "X6S 6.3V"
+		(property "Spec" "X5R 6.3V"
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8271,6 +8491,61 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative MPN" "GRM155C80J106ME11D"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-13238-1-ND"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R60J106ME5D"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3582794"
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R60J106ME15D"
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8824,6 +9099,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-5881-1-ND"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R61A104KE5D"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2470450"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R61A104KE15D"
+			(at 81.28 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3bbe20ce-b1bc-4c54-a8d0-318806850798")
 		)
@@ -9125,6 +9444,39 @@
 				)
 			)
 		)
+		(property "Mouser PN" "187-CL21A476MQYNNNE"
+			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4539107"
+			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "CL21A476MQYNNNE"
+			(at 55.88 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba510c9c-8ec3-4bc8-8864-26bc2a5c15e8")
 		)
@@ -9380,7 +9732,7 @@
 				)
 			)
 		)
-		(property "MPN" "LQP03HQ3N5B02"
+		(property "MPN" "LQP03HQ3N5B02D"
 			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9414,6 +9766,39 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-13925-1-ND"
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-LQP03HQ3N5B02D"
+			(at 53.34 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3355000"
 			(at 53.34 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -9548,6 +9933,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 165.1 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
 			(at 165.1 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -9793,6 +10222,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-5881-1-ND"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R61A104KE5D"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2470450"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R61A104KE15D"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8e7cf39-54b4-499b-9a76-daa14d741adb")
 		)
@@ -9919,6 +10392,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-6144-1-ND"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R71A222KA1D"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2999376"
+			(at 96.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R71A222KA01D"
 			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10156,6 +10673,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-5881-1-ND"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R61A104KE5D"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2470450"
+			(at 50.8 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R61A104KE15D"
 			(at 50.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10743,6 +11304,17 @@
 			)
 		)
 		(property "Hersteller-Teilenummer" ""
+			(at 76.2 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "4713-GMC02X5R225K6R3NTCT-ND"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11740,6 +12312,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "311-10.0KLRCT-ND"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "603-RC0402FR-0710KL"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "9239359"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "55328"
+			(at 307.34 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae44f340-4504-4fb5-9a0a-6d434696d661")
 		)
@@ -11975,6 +12591,17 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "4713-GMC02X5R225K6R3NTCT-ND"
+			(at 48.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3346ffa-838f-4efb-85c8-bad8c0ca3c79")
 		)
@@ -12188,6 +12815,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-5881-1-ND"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R61A104KE5D"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2470450"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R61A104KE15D"
+			(at 60.96 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0886635-d773-41a4-ac94-7f8096736cf8")
 		)
@@ -12388,6 +13059,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "311-10.0KLRCT-ND"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "603-RC0402FR-0710KL"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "9239359"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "55328"
+			(at 322.58 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "291df1d6-15c3-43f5-8c19-198bc98db29f")
 		)
@@ -12467,7 +13182,7 @@
 				)
 			)
 		)
-		(property "MPN" "LQP03HQ3N5B02"
+		(property "MPN" "LQP03HQ3N5B02D"
 			(at 68.58 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12501,6 +13216,39 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 68.58 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-13925-1-ND"
+			(at 68.58 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-LQP03HQ3N5B02D"
+			(at 68.58 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3355000"
 			(at 68.58 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -12821,6 +13569,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
+			(at 233.68 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "029ac65f-1586-4a00-bfde-10e29d1c087c")
 		)
@@ -13099,6 +13891,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 63.5 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-2557-1-ND"
+			(at 63.5 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-BLM03AG121SN1D"
+			(at 63.5 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "1400872"
+			(at 63.5 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "BLM03AG121SN1D"
 			(at 63.5 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -13463,6 +14299,50 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "13-RC0201FR-131KLCT-ND"
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "603-RC0201FR-071KL"
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "1856995"
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "RC0201FR-071KL"
+			(at 292.1 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "056be27d-c295-47a4-9a43-d7a00603d776")
 		)
@@ -13587,6 +14467,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
 			(at 157.48 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -13798,6 +14722,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 93.98 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -14043,7 +15011,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM0335C1E1R5WB01"
+		(property "MPN" "GJM0335C1E1R5WB01D"
 			(at 45.72 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14077,6 +15045,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-11176-1-ND"
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GJM0335C1E1R5WB1J"
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3243178"
+			(at 45.72 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GJM0335C1E1R5WB01D"
 			(at 45.72 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14177,7 +15189,7 @@
 				)
 			)
 		)
-		(property "MPN" "X201632MKB4SI"
+		(property "MPN" "ABM11W-32.0000MHZ-8-D1X-T3"
 			(at 48.26 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14188,7 +15200,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC"
+		(property "Manufacturer" "Abracon"
 			(at 48.26 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -14222,6 +15234,61 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative MPN" "X201632MKB4SI (YXC)"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "535-13900-1-ND"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "815-11W32-8D1XT"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "3573167"
+			(at 48.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "ABM11W32.0000M-2"
 			(at 48.26 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14631,6 +15698,17 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "828-BMP581CT-ND"
+			(at 134.62 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9281463e-bd34-46dc-9c85-dac7e952b0cf")
 		)
@@ -14770,6 +15848,39 @@
 			)
 		)
 		(property "MPN" "NRF54L15-QFAA-R"
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "4823-NRF54L15-QFAA-RCT-ND"
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "949-NRF54L15-QFAA-R"
+			(at 215.9 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4544025"
 			(at 215.9 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15000,7 +16111,7 @@
 				)
 			)
 		)
-		(property "MPN" "LQP03HQ2N7B02"
+		(property "MPN" "LQP03HQ2N7B02D"
 			(at 38.1 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15034,6 +16145,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-13909-1-ND"
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-LQP03HQ2N7B02D"
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2871309"
+			(at 38.1 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "LQP03HQ2N7B02D"
 			(at 38.1 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -15273,6 +16428,17 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 63.5 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "262-BMI423"
 			(at 63.5 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -15618,6 +16784,61 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "311-1.00KLRCT-ND"
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "603-RC0402FR-071KL"
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "9239235"
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "RC0402FR-071KL"
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "63459"
+			(at 289.56 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a79c0e1a-381b-46ef-9872-891eb0605a6d")
 		)
@@ -15820,6 +17041,39 @@
 				)
 			)
 		)
+		(property "DigiKey PN" "1649-STCC4-D-R3CT-ND"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "403-STCC4-D-R3"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "410169"
+			(at 200.66 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd6db723-e9f7-4f16-904e-e7ed801c9c01")
 		)
@@ -15962,6 +17216,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-6328-1-ND"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM155R71C104KA88"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "4326786"
+			(at 289.56 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM155R71C104KA88D"
 			(at 289.56 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -16535,6 +17833,50 @@
 				)
 			)
 		)
+		(property "Mouser PN" "603-RC0402JR-070RL"
+			(at 99.06 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "9232516"
+			(at 99.06 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "RC0402JR-070R"
+			(at 99.06 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOS PN" "52681"
+			(at 99.06 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87a4615b-dd1b-4cab-b791-5498e8892f39")
 		)
@@ -16661,6 +18003,50 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-1262-1-ND"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GRM033R70J103KA1D"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Farnell PN" "2611886"
+			(at 86.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME PN" "GRM033R70J103KA01D"
 			(at 86.36 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -16971,6 +18357,17 @@
 			)
 		)
 		(property "Hersteller-Teilenummer" ""
+			(at 83.82 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "2195-CM8V-T1A-32.768KHZ-9PF-20PPM-TB-QACT-ND"
 			(at 83.82 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17535,7 +18932,7 @@
 				)
 			)
 		)
-		(property "MPN" "GJM0333C1E3R9WB01D"
+		(property "MPN" "GJM0335C1H3R9WB01D"
 			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17546,7 +18943,7 @@
 				)
 			)
 		)
-		(property "Spec" "NP0 ±0.05pF 25V"
+		(property "Spec" "NP0 ±0.05pF 50V"
 			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -17569,6 +18966,39 @@
 			)
 		)
 		(property "JLC Part" ""
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alternative MPN" "GJM0333C1E3R9WB01D"
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "490-GJM0335C1H3R9WB01DCT-ND"
+			(at 284.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser PN" "81-GJM0335C1H3R9WB1D"
 			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
