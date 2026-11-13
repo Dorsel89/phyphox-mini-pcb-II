@@ -15,11 +15,18 @@ Eingebunden über `sym-lib-table` / `fp-lib-table` mit `${KIPRJMOD}`.
 | `phyphox-mini.pretty/STCC4_LGA-8_3x4mm` | Footprint | Eigene Erstellung nach STCC4-Datenblatt D1 (Pads 0,85 × 0,85 mm, Pin 1 mit Fase) |
 | `phyphox-mini.pretty/Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad` | Footprint | Kopie des KiCad-Footprints gleichen Namens, nur das 3D-Modell zeigt auf das eigene Modell (KiCad liefert dafür keins mit) |
 | `phyphox-mini.pretty/Texas_SWRA117D_2.4GHz_Right_Pad2-0.65mm` | Footprint | Kopie des KiCad-Footprints `RF_Antenna:Texas_SWRA117D_2.4GHz_Right`; Pad 2 (Massebohrung) von 0,9 × 0,5 auf 0,9 × 0,65 mm vergrößert, damit der Restring 0,175 mm erreicht (Fertigungsregel) |
+| `phyphox-mini.pretty/C_0201_0603Metric_Nordic`, `L_0201_0603Metric_Nordic`, `R_0201_0603Metric_Nordic` | Footprints | Eigene Erstellung; Padmaße (0,27 × 0,30 mm, Raster 0,57 mm) nach Nordic nRF54L15-QFAA Reference Layout v0.8; 3D-Modelle aus den KiCad-Bibliotheken (nur referenziert) |
+| `phyphox-mini.pretty/L_0603_1608Metric_Nordic` | Footprint | Eigene Erstellung; Padmaße (0,75 × 0,80 mm, Raster 1,35 mm) nach Nordic nRF54L15-QFAA Reference Layout v0.8; 3D-Modell aus den KiCad-Bibliotheken (nur referenziert) |
 | `phyphox-mini.3dshapes/BMP581_LGA-10_2x2mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (2,0 × 2,0 × 0,75 mm) |
 | `phyphox-mini.3dshapes/STCC4_LGA-8_3x4mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (3,0 × 4,0 × 1,17 mm) |
 | `phyphox-mini.3dshapes/SHT4x_DFN-4_1.5x1.5mm.step` | 3D-Modell | Eigene Erstellung mit CadQuery (1,5 × 1,5 × 0,5 mm) |
 
-Diese Dateien fallen unter die Lizenz des Projekts.
+Diese Dateien fallen unter die Lizenz des Projekts. Ausnahme sind die aus den
+KiCad-Bibliotheken abgeleiteten Elemente: die Footprints
+`Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad` und
+`Texas_SWRA117D_2.4GHz_Right_Pad2-0.65mm` sowie das Symbol `BMI423`. Als
+Bibliothekselemente bleiben sie unter CC-BY-SA 4.0
+(© KiCad Library Team, https://gitlab.com/kicad/libraries).
 
 Alle übrigen Symbole, Footprints und 3D-Modelle stammen aus den offiziellen
 KiCad-Bibliotheken (CC-BY-SA 4.0 mit Ausnahme: Designs, die diese Bibliotheken
